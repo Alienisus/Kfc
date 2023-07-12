@@ -1,0 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#zeBackGround{
+    background-image: url('./Media/bg.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#HomeGuard{
+    background-image: url('./Media/b3.jpg');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+}

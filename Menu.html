@@ -1,0 +1,127 @@
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-red-500" id="zeBackGround">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24  lg:px-8">
+        <h2 class="text-2xl font-bold tracking-tight text-white flex"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+        </svg>
+ Our Best Sellers</h2>
+
+        <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 p-3 bg-white rounded">
+            <div class="group relative">
+                <div
+                    class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="./Media/11.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                </div>
+                <div class="my-5 flex justify-between">
+
+                    <div>
+                        <h3 class="text-sm text-gray-500">
+                            <a href="https://www.kfc.com.ph/menu/overview">
+                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                <b>
+                                    Bucket of 10
+                                </b>
+                            </a>
+                        </h3>
+                    </div>
+                    <p class="text-sm font-medium text-gray-600">₱805</p>
+                </div>
+            </div>
+
+            <div class="group relative">
+                <div
+                    class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="./Media/22.webp"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                </div>
+                <div class="my-5 flex justify-between">
+
+                    <div>
+                        <h3 class="text-sm text-gray-500">
+                            <a href="https://www.kfc.com.ph/menu/overview">
+                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                <b>
+                                    8-PC Bucket Meal
+                                </b>
+                            </a>
+                        </h3>
+                    </div>
+                    <p class="text-sm font-medium text-gray-600">₱795</p>
+                </div>
+            </div>
+
+            <div class="group relative">
+                <div
+                    class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="./Media/3.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                </div>
+                <div class="my-5 flex justify-between">
+                    <div>
+                        <h3 class="text-sm text-gray-500">
+                            <a href="https://www.kfc.com.ph/menu/overview">
+                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                <b>
+                                    2-PC Fully Loaded Meal
+                                </b>
+                            </a>
+                        </h3>
+                    </div>
+                    <p class="text-sm font-medium text-gray-600">₱275</p>
+                </div>
+            </div>
+
+            <div class="group relative">
+                <div
+                    class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80
+                    ">
+                    <img src="./Media/4.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                </div>
+                <div class="my-5 flex justify-between">
+                    <div>
+                        <h3 class="text-sm text-gray-500">
+                            <a href="https://www.kfc.com.ph/menu/overview">
+                                <span aria-hidden="true" class="absolute inset-0"></span>
+                                <b>
+                                    Famous Bowl Meal
+                                </b>
+                            </a>
+                        </h3>
+                    </div>
+                    <p class="text-sm font-medium text-gray-600">₱89</p>
+                </div>
+            </div>
+
+            <!-- More products... -->
+        </div>
+
+        <button class="bg-white text-red-500 p-3 hover:bg-gray-300 hover:text-black font-bold rounded-md shadow-lg float-right my-5 flex ">
+            Order Now <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                class="w-6 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+            </svg>
+        </button>
+    </div>
+</div>
